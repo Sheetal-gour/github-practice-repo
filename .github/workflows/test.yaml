@@ -1,0 +1,9 @@
+name: Github Actions demo
+on: push
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Printing Hello
+      run: echo "Hello world"
+    - name: Printing  Goodbye
+      run: echo "Bye bye"
